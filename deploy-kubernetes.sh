@@ -1,3 +1,5 @@
+#Note: put this script inside "openstack-helm" directory
+
 #!/bin/bash
 set -xe
 
