@@ -36,6 +36,8 @@ To check the installation status of each service use
 To check particular container logs <br/>
 #kubectl logs  horizon-669f4fb7f-5qrvh -n openstack
 
+To take console of particular container of the pod  <br/>
+#kubectl exec -it openstack -c horizon-669f4fb7f-5qrvh -- /bin/bash
 
 source the openstack environment and use  <br/>
 #openstack endpoint list    
