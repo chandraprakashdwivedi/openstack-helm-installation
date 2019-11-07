@@ -28,12 +28,12 @@ deploy-kubernetes.sh	 <br/>
 install-helm.sh	  <br/>
 ingress-controller.sh  <br/>
 
-To check the installation status of each service use
+To check the installation status of each service use 
 
-#kubectl get pods --all-namespaces
-#helm status horizon
+#kubectl get pods --all-namespaces  <br/>
+#helm status horizon   <br/>
 
-To check particular container logs
+To check particular container logs <br/>
 #kubectl logs  horizon-669f4fb7f-5qrvh -n openstack
 
 
