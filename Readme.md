@@ -2,10 +2,10 @@
 
 System requirements for helm
 
-Ubuntu 16.04
-16GB of RAM
-8 Cores
-48GB HDD
+Ubuntu 16.04 <br/>
+16GB of RAM <br/>
+8 Cores <br/>
+48GB HDD <br/>
 
 Login as root 
 
