@@ -12,6 +12,8 @@ Login as root
 ## Installation of single node 
 https://docs.openstack.org/openstack-helm/latest/install/developer/kubernetes-and-common-setup.html
 
+https://pbelamge.wordpress.com/2018/03/01/aio-openstack-using-helm/
+
 https://www.careyscloud.ie/openstack_kube
 
 ## MultiNode Installation
