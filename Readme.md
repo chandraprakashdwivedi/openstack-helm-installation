@@ -46,6 +46,8 @@ source the openstack environment and use  <br/>
 
 https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/
 
+https://kubernetes.io/docs/tasks/debug-application-cluster/get-shell-running-container/
+
 
 
 
