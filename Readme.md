@@ -26,3 +26,10 @@ install-helm.sh	  <br/>
 ingress-controller.sh  <br/>
 
 
+# Some Notes on Kubernets
+
+https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/
+
+
+
+
