@@ -14,9 +14,9 @@ Copy these scripts inside "openstack-helm" directory and execute one by one
 
 Sequence of execution:
 
-openstack-helm-repos.sh
-deploy-kubernetes.sh	
-install-helm.sh	
-ingress-controller.sh
+openstack-helm-repos.sh  <br/>
+deploy-kubernetes.sh	 <br/>
+install-helm.sh	  <br/>
+ingress-controller.sh  <br/>
 
 
