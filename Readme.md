@@ -9,15 +9,18 @@ Ubuntu 16.04 <br/>
 
 Login as root 
 
+First of all run this script to clone the openstack-helm git repos
+
+openstack-helm-repos.sh  <br/>
+
 ## Installation of single node 
 https://docs.openstack.org/openstack-helm/latest/install/developer/kubernetes-and-common-setup.html
 
 
-Copy these scripts inside "openstack-helm" directory and execute one by one
+After that Copy these scripts inside "openstack-helm" directory and execute one by one
 
 Sequence of execution:
 
-openstack-helm-repos.sh  <br/>
 deploy-kubernetes.sh	 <br/>
 install-helm.sh	  <br/>
 ingress-controller.sh  <br/>
