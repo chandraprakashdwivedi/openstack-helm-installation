@@ -20,7 +20,10 @@ https://docs.openstack.org/openstack-helm/latest/install/developer/kubernetes-an
 https://docs.openstack.org/openstack-helm/latest/install/multinode.html
 
 
-After that Copy these scripts inside "openstack-helm" directory and execute one by one "or" you can directly run the scripts as mentioned in above document.
+After that Copy these scripts inside "openstack-helm" directory and execute one by one "or" you can directly run the scripts by going to this path and execute script sequentially
+
+#cd openstack-helm/tools/deployment/developer/common
+ 
 
 Sequence of execution:
 
@@ -28,13 +31,19 @@ deploy-kubernetes.sh	 <br/>
 install-helm.sh	  <br/>
 ingress-controller.sh  <br/>
 
-To check the installation status of each service use 
+To check the installation status of each service use <br/>
+#helm list
 
+To see further container information use <br/>
+#helm inspect nova |more
+
+To check all services are running use <br/>
 #kubectl get pods --all-namespaces  <br/>
 #helm status horizon   <br/>
 
+To check why particular container is not running you need to dump there logs <br/>
 To check particular container logs <br/>
-#kubectl logs  horizon-669f4fb7f-5qrvh -n openstack
+#kubectl logs  -n openstack horizon-669f4fb7f-5qrvh
 
 To take console of particular container of the pod  <br/>
 #kubectl exec -it openstack -c horizon-669f4fb7f-5qrvh -- /bin/bash
