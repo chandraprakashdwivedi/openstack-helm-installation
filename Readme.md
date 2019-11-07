@@ -37,10 +37,10 @@ To check particular container logs <br/>
 #kubectl logs  horizon-669f4fb7f-5qrvh -n openstack
 
 
-source the openstack environment and use
+source the openstack environment and use  <br/>
 #openstack endpoint list    
 
-# Some Notes on Kubernets
+# Some Notes on Kubernets 
 
 https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/
 
