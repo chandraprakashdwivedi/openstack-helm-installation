@@ -9,29 +9,29 @@ Ubuntu 16.04 <br/>
 
 Login as root 
 
-apt-get update
-apt-get upgrade -y
-apt-get install ca-certificates git make jq nmap curl uuid-runtime -y
-git clone https://opendev.org/openstack/openstack-helm-infra.git
-git clone https://opendev.org/openstack/openstack-helm.git
-cd openstack-helm
-./tools/deployment/developer/common/010-deploy-k8s.sh
-./tools/deployment/developer/common/020-setup-client.sh
-./tools/deployment/developer/common/030-ingress.sh
+apt-get update  <br/>
+apt-get upgrade -y <br/>
+apt-get install ca-certificates git make jq nmap curl uuid-runtime -y <br/>
+git clone https://opendev.org/openstack/openstack-helm-infra.git <br/>
+git clone https://opendev.org/openstack/openstack-helm.git <br/>
+cd openstack-helm <br/>
+./tools/deployment/developer/common/010-deploy-k8s.sh <br/>
+ ./tools/deployment/developer/common/020-setup-client.sh <br/>
+./tools/deployment/developer/common/030-ingress.sh <br/>
 
-If using NFS as storage
-./tools/deployment/developer/nfs/040-nfs-provisioner.sh
-./tools/deployment/developer/nfs/050-mariadb.sh
-./tools/deployment/developer/nfs/060-rabbitmq.sh
-./tools/deployment/developer/nfs/070-memcached.sh
-./tools/deployment/developer/nfs/080-keystone.sh
-./tools/deployment/developer/nfs/090-heat.sh
-./tools/deployment/developer/nfs/100-horizon.sh
-./tools/deployment/developer/nfs/120-glance.sh
-./tools/deployment/developer/nfs/140-openvswitch.sh
-./tools/deployment/developer/nfs/150-libvirt.sh
-./tools/deployment/developer/nfs/160-compute-kit.sh
-./tools/deployment/developer/nfs/170-setup-gateway.sh
+If using NFS as storage <br/>
+./tools/deployment/developer/nfs/040-nfs-provisioner.sh <br/>
+./tools/deployment/developer/nfs/050-mariadb.sh <br/>
+./tools/deployment/developer/nfs/060-rabbitmq.sh <br/>
+./tools/deployment/developer/nfs/070-memcached.sh <br/>
+./tools/deployment/developer/nfs/080-keystone.sh <br/>
+./tools/deployment/developer/nfs/090-heat.sh <br/>
+./tools/deployment/developer/nfs/100-horizon.sh <br/>
+./tools/deployment/developer/nfs/120-glance.sh <br/>
+./tools/deployment/developer/nfs/140-openvswitch.sh <br/>
+./tools/deployment/developer/nfs/150-libvirt.sh <br/>
+./tools/deployment/developer/nfs/160-compute-kit.sh <br/>
+./tools/deployment/developer/nfs/170-setup-gateway.sh <br/>
 
 
 
