@@ -1,4 +1,4 @@
-# Installation Script for Openstack-helm
+# Installation of Openstack-helm
 
 System requirements for helm
 
@@ -15,6 +15,9 @@ openstack-helm-repos.sh  <br/>
 
 ## Installation of single node 
 https://docs.openstack.org/openstack-helm/latest/install/developer/kubernetes-and-common-setup.html
+
+## MultiNode Installation
+https://docs.openstack.org/openstack-helm/latest/install/multinode.html
 
 
 After that Copy these scripts inside "openstack-helm" directory and execute one by one
