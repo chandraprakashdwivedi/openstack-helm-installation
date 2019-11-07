@@ -20,7 +20,7 @@ https://docs.openstack.org/openstack-helm/latest/install/developer/kubernetes-an
 https://docs.openstack.org/openstack-helm/latest/install/multinode.html
 
 
-After that Copy these scripts inside "openstack-helm" directory and execute one by one
+After that Copy these scripts inside "openstack-helm" directory and execute one by one "or" you can directly run the scripts as mentioned in above document.
 
 Sequence of execution:
 
@@ -28,6 +28,17 @@ deploy-kubernetes.sh	 <br/>
 install-helm.sh	  <br/>
 ingress-controller.sh  <br/>
 
+To check the installation status of each service use
+
+#kubectl get pods --all-namespaces
+#helm status horizon
+
+To check particular container logs
+#kubectl logs  horizon-669f4fb7f-5qrvh -n openstack
+
+
+source the openstack environment and use
+#openstack endpoint list    
 
 # Some Notes on Kubernets
 
