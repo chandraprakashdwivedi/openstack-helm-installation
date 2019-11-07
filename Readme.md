@@ -9,6 +9,9 @@ Ubuntu 16.04 <br/>
 
 Login as root 
 
+## Installation of single node 
+https://docs.openstack.org/openstack-helm/latest/install/developer/kubernetes-and-common-setup.html
+
 
 Copy these scripts inside "openstack-helm" directory and execute one by one
 
