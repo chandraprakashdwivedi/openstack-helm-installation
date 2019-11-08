@@ -42,6 +42,9 @@ https://pbelamge.wordpress.com/2018/03/01/aio-openstack-using-helm/
 
 https://www.careyscloud.ie/openstack_kube
 
+https://aptira.com/installing-openstack-on-openstack-with-external-network/
+
+
 ## MultiNode Installation
 https://docs.openstack.org/openstack-helm/latest/install/multinode.html
 
